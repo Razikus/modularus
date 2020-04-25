@@ -1,5 +1,3 @@
-import { SView } from "./SView"
-
 export class SPage {
     icon: string
     neededPrivileges: Array<String>
