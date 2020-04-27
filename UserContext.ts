@@ -3,7 +3,7 @@ export class UserContext {
     name: String
     additionalInformations: Map<String, any>
     
-    constructor(name) {
+    constructor(name: String) {
         this.name = name
         this.privileges = new Array<String>()
         this.additionalInformations = new Map<String, any>()
